@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="description" content="um site para uma fotográfa divulgar seu trabalho, com fotos de paisagem que ela tirou e formas de entrar em contato">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+
+    <title>Fotografia</title>
+
+
+</head>
+
+<body>
+    <figure>
+         <!--<img src= "img/fotografa2.webp">-->
+        <figcaption>JANE DOE<br>PHOTOGRAPHER</figcaption>
+
+    </figure>
+    <nav>
+        <ul class="menu">
+
+            <li class="iten-menu"><a href="">Página Inicial</a></li> <!-- inten da lista -->
+            <li class="iten-menu"><a href="#portfolio">Portfolio</a></li>
+            <li class="iten-menu"><a href="#contato">Contato</a></li>
+
+
+        </ul>
+    </nav>
+
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="img/paisagem2.webp"style="width:100%; height: 500px;" alt="imagem de uma lua refletida em um lago">
+        <img class="mySlides" src="img/paisagem1.webp" style="width:100%; height: 500px;" alt="montanhas e pedras com um céu azul">
+        <img class="mySlides" src="img/paisagem3.webp" style="width:100%; height: 500px;" alt="sol se pondoem um lago com barcos">
+
+
+    </div>
+    
+    <!-- <img src="img/paisagem2.jpg" id="portfolio" class="paisagem">
+    <img src="img/paisagem1.jpg"id="portfolio" class="paisagem">
+    <img src="img/paisagem3.jpg"id="portfolio" class="paisagem"> -->
+    <div>
+
+        <div class="contato" id="contato">
+            <h1> Entre em contato: </h1 id="contato">
+            <h2>E-mail: <a href="mailto:janedoe@gmail.com">janedoe@gmail.com</a></h2 id="contato">
+            <h2>Telefone:<a href="tel:(18)99999-9999">(18)99999-9999</a></h2 id="contato">
+        </div>
+    </div>
+
+
+
+    <script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+
+}
+    </script>
+
+
+
+
+</body>
+
+</html>

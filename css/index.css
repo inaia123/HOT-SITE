@@ -1,0 +1,99 @@
+.menu{
+    list-style: none;
+    display:flex;
+    margin:0 auto;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background: rgb(0, 140, 196);
+    margin-top: -4px;
+
+}
+
+li{
+  margin-left: 25px;
+  font-size:25px; 
+  font-family: 'Oswald' , sans-serif;
+  padding: 12px;
+  font-weight: bold;
+  color: white;
+
+}
+
+body{
+    margin: 0;
+    background-color:rgb(194, 248, 255) ;
+}
+
+li:hover{
+    background: white;
+    color: rgb(39, 188, 247);
+}
+ img{
+    width: 100%;
+    display: block;
+ }
+ .paisagem{
+     width: 55%;
+    margin: 10px auto;
+    display: block;
+ }
+
+ h1{
+     text-align: left;
+     font-family:'Oswald' , sans-serif; 
+ }
+
+ h2{
+      
+     font-family:'Oswald' , sans-serif; 
+ }
+
+ div{
+     background:  rgb(0, 140, 196);
+     margin-top: -22px;
+     color: white;
+ }
+ 
+.contato{
+    width: 55%;
+    margin: 0 auto;
+}
+
+
+
+figure{
+    position: relative;
+    margin: 0;
+    height: 100vh;
+    background: url(../img/fotografa2.webp) no-repeat center fixed;
+    background-size: cover;
+}
+
+figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 50px;
+}
+
+
+a{
+    text-decoration: none;
+    color:white;}
+
+a:hover{
+    color: navy;
+}
+
+
+
+.w3-content{
+    margin: 50px auto;
+}
